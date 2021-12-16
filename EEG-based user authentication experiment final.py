@@ -1,13 +1,4 @@
-# may 7th 2021
-# 15 subs 6 ica_comp. each
-# combs = task 1 + task 3, task 2 + task 4
-# total = 3runs*2combs = 6 data points for ea. sub
-# the reason why only 6: a person never has the exact same brain data,
-# so we can't reuse a run. 12 runs total => max 6 pts per sub if we want to have
-# a sequence of movements as the data pts.
-
 import os
-#import Mlp (just combined them)
 import keras
 import mne
 from mne.preprocessing import ICA, create_ecg_epochs
